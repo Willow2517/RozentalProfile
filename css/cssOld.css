@@ -1,0 +1,402 @@
+  .header-logo {
+    width: 100px;
+}
+
+
+#content {
+    top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header__header {
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 134px;
+    background: #063796;
+}
+#logo {
+    position: absolute;
+    left: 120px;
+    top: 35px;
+    font-size: 2em;
+}
+
+#logo_formulation {
+    position: absolute;
+    top: 29px;
+    left: 500px;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    column-width: 250px;
+    line-height: 25px;
+    border-left: 1px solid #6987c0;
+    padding: 10px;
+}
+#logo_number {
+    position: absolute;
+    top: 40px;
+    left: 850px;
+    font-size: 25px;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+
+}
+#logo_number_formulation {
+    position: absolute;
+    top: 70px;
+    left: 850px;
+    font-size: 15px;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: normal;
+    color: #6987c0;;
+}
+#msg_icon {
+    position: absolute;
+    left: 1325px;
+    top: 45px;
+    }
+
+#msg {
+    position: absolute;
+    width: 89px;
+    height: 18px;
+    left: 1350px;
+    top: 44px;
+    
+    font-family: Formular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    column-width: 5px;
+
+    color: #FFFFFF;
+}
+.d1 {
+    border-radius: 50%;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 1079px;
+    top: 43px;
+
+background: #E63757;
+}
+.ellipse {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 1079px;
+    top: 43px;
+    border-radius: 50%;
+    background: #E63757;
+}
+.aside_frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 24px 47px;
+
+    position: absolute;
+    width: 286px;
+    height: 100%;
+    left: 34px;
+    top: 134px;
+
+    background: #FFFFFF;
+    border: 1px solid #E3EBF6;
+    box-sizing: border-box;
+}
+.profileFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+
+    position: absolute;
+    width: 240px;
+    height: 64px;
+    left: 24px;
+    top: 40px;
+
+    background: #F8FAFC;
+    border: 1px solid #EDF2F9;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.ProfileAvatar {
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 12px;
+    top: 12px;
+
+    border-radius: 100px;
+
+    background: url('../img/avatar40.png');
+    background-blend-mode: normal;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.ProfileName {
+    
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 70px;
+    top: 10px;
+    line-height: 1.4;
+
+      font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+
+
+    color: #12263F;
+}
+.exit_profile {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    right: 0px;
+    top: 20px;
+}
+
+
+.adress_frame {
+    position: absolute;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+    top: 110px;
+    margin: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #D2DDEC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+}
+.adress_frame_text {
+    position: absolute;
+    width: 182px;
+    height: 18px;
+    left: 12px;
+    top: 11px;
+
+    font-family: Formular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+
+    color: #12263F;
+
+}
+.btn_desktop {
+      рабочий стол 
+    position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 170px;
+
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #6E84A3;
+}
+
+.btn_appeal {
+      заявки 
+    position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 204px;
+
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E84A3;
+}
+
+.btn_payment {
+      оплата 
+    position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 238px;
+    
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E84A3;
+}
+
+    
+.btn_counters {
+      счетчики 
+    position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 272px;
+    
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E84A3;
+}
+
+.btn_suggestions {
+      Предложения 
+    position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 306px;
+    
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E84A3;
+}
+.btn_pollss {
+      /* опросы  */
+    position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 340px;
+    
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E84A3;
+}
+
+.btn_voting {
+      /* голосования  */
+    position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 374px;
+    
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E84A3;
+}
+
+
+  .btn_voting { 
+      /* голосования  */
+      position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 374px;
+    
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E84A3;
+} 
+
+
+
+  .btn_others { 
+      /* прочее  */
+      position: absolute;
+    width: 130px;
+    height: 18px;
+    left: 24px;
+    top: 408px;
+    
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E84A3;
+} 
+  .main { 
+      /* основное окно, которое правее меню  */
+  position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 134px;
+bottom: 0px;
+overflow-y: scroll;
+
+background: #F8FAFC;
+} 
+.left_menu {
+    left: 50px;
+    background: #006cd8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 238px;
+    height: 662px;
+    left: 24px;
+    top: 130px; 
+
+background: #FFFFFF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+}
